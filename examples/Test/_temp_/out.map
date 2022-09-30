@@ -180,8 +180,8 @@ _HEAP                               00001D14    00000000 =           0. bytes (R
 Files Linked                              [ module(s) ]
 
 _temp_\out.rel                            [ main ]
-..\..\toolchain\bin\crt0.rel              [  ]
-..\..\toolchain\bin\sprinter.rel          [ sprinter ]
+..\..\sdk\bin\crt0.rel                    [  ]
+..\..\sdk\bin\sprinter.rel                [ sprinter ]
 
 ASxxxx Linker V03.00 + NoICE + sdld,  page 10.
 

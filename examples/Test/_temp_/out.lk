@@ -2,10 +2,10 @@
 -i _temp_\out.ihx
 -b _CODE = 0x0006
 -b _DATA = 0x0000
--k C:\ESoul\Work\Speccy\zx-sprinter-sdk\toolchain\sdcc\bin\..\lib\z80
+-k C:\ESoul\Work\Speccy\zx-sprinter-sdk\sdk\sdcc\bin\..\lib\z80
 -l z80
 _temp_\out.rel
-..\..\toolchain\bin\crt0.rel
-..\..\toolchain\bin\sprinter.rel
+..\..\sdk\bin\crt0.rel
+..\..\sdk\bin\sprinter.rel
 
 -e

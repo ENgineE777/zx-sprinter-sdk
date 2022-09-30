@@ -1,0 +1,82 @@
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (Zilog Z80 / Hitachi HD64180 / ZX-Next / eZ80), page 1.
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+    .__.$$$.                                                    =  002710 L
+    .__.ABS.                                                    =  000000 G
+    .__.CPU.                                                    =  000000 L
+    .__.H$L.                                                    =  000000 L
+    _draw_image                                                    ****** GX
+    _draw_tile                                                     ****** GX
+    _end_sprite                                                    ****** GX
+  0 _fade_from_black                                               000B51 GR
+  0 _fade_out                                                      000BC3 GR
+  0 _fade_screen                                                   000B83 GR
+  0 _fade_to_black                                                 000B1E GR
+  1 _fases                                                         0006B4 GR
+  0 _fases_data                                                    00049D GR
+  0 _fases_init                                                    000361 GR
+  0 _init_vdp                                                      000B65 GR
+    _joystick                                                      ****** GX
+  0 _main                                                          000C0E GR
+  0 _make_black                                                    000B95 GR
+  1 _needed_pal                                                    000E0F GR
+    _pal_bright                                                    ****** GX
+    _pal_select                                                    ****** GX
+  0 _screen_enable                                                 000B66 GR
+  0 _sp_AttrGet                                                    00004B GR
+  0 _sp_AttrSet                                                    000016 GR
+  0 _sp_ClearRect                                                  0002C0 GR
+  0 _sp_CreateSpr                                                  0002A1 GR
+  0 _sp_DeleteSpr                                                  0002A6 GR
+  0 _sp_GetKey                                                     0002FB GR
+  0 _sp_GetTiles                                                   0000E1 GR
+  0 _sp_HideAllSpr                                                 000360 GR
+  0 _sp_Init                                                       000000 GR
+  0 _sp_MoveSprAbs                                                 0002A5 GR
+  0 _sp_PrintAtInv                                                 0000A3 GR
+  0 _sp_PutTiles                                                   00019F GR
+  0 _sp_SetSpriteClip                                              00030B GR
+  0 _sp_TileSet                                                    000084 GR
+  0 _sp_UpdateNow                                                  0002BA GR
+  1 _sp_attr_buf                                                   000300 GR
+  1 _sp_tile_buf                                                   000000 GR
+  1 _spriteList                                                    000600 GR
+  1 _spritesClip                                                   000E93 GR
+  1 _spritesClipValues                                             000E8F GR
+    _sprites_clip                                                  ****** GX
+  1 _sprites_pal                                                   000D8F GR
+    _sprites_start                                                 ****** GX
+    _swap_screen                                                   ****** GX
+  1 _tilesa_pal                                                    000DAF GR
+  1 _tilesb_pal                                                    000DCF GR
+  1 _tilesc_pal                                                    000DEF GR
+  0 _unpack_screen                                                 000B67 GR
+    _vsync                                                         ****** GX
+  0 _wait_for_a_key                                                000BCE GR
+  1 _warp_palette                                                  000D35 GR
+  0 _white_pal                                                     000B31 GR
+    _wyz_play_sound                                                ****** GX
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (Zilog Z80 / Hitachi HD64180 / ZX-Next / eZ80), page 2.
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+
+
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (Zilog Z80 / Hitachi HD64180 / ZX-Next / eZ80), page 3.
+Hexadecimal [24-Bits]
+
+Area Table
+
+   0 _CODE                                      size    C71   flags    0
+   1 _DATA                                      size    E95   flags    0
+   2 _INITIALIZED                               size      0   flags    0
+   3 _DABS                                      size      0   flags    8
+   4 _HOME                                      size      0   flags    0
+   5 _GSINIT                                    size      0   flags    0
+   6 _GSFINAL                                   size      0   flags    0
+   7 _INITIALIZER                               size      0   flags    0
+   8 _CABS                                      size      0   flags    8
+

@@ -1,0 +1,4 @@
+
+sjasmplus loader.asm
+
+pause

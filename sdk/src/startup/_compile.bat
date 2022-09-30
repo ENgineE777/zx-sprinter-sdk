@@ -1,4 +1,4 @@
 
-sjasmplus loader.asm
+sjasmplus lib_startup.asm
 
 pause

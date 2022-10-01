@@ -1,0 +1,1 @@
+setx ZXSDK %~dp0

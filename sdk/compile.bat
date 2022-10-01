@@ -28,4 +28,17 @@ echo Creating exe...
 
 copy /b /y %ZXSDK%\bin\loader.exe + %temp%\code.bin + Sound\wyz.bin + Sprites\gfx.dat %output%.exe
 
+echo Copy to VHD...
+
+call %ZXSDK%\zxmak\HDD\mount.bat
+
+pause 
+
+mkdir Z:\%output%
+copy %output%.exe Z:\%output%\%output%.exe
+
+call %ZXSDK%\zxmak\HDD\unmount.bat
+
 rd /s /q %temp%
+
+%ZXSDK%\zxmak\ZXMAK2.exe

@@ -7,5 +7,6 @@ continued in a form of user friendly toolset.
 SDK shares philosophy out of the box ready, so everything inside the repository. Checking of examples is a good starting for
 development of your games for Sprinter.
 
-Important: before use sdk you need to execute compile.bat in sdk folder for registering path to sdk
-in enviroment variable. This will make possible to use SDK from any location on a computer
+Important: before use sdk you need to execute registerSDK.bat in sdk folder for registering path to sdk
+in enviroment variable and preparing ZXMak2 to launch you compiled games. Also this will make possible to store source of
+your game at any location on a computer and be able to compile via SDK

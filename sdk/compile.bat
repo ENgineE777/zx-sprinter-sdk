@@ -32,8 +32,6 @@ echo Copy to VHD...
 
 call %ZXSDK%\zxmak\HDD\mount.bat
 
-pause 
-
 mkdir Z:\%output%
 copy %output%.exe Z:\%output%\%output%.exe
 

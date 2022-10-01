@@ -1,10 +1,8 @@
 #include "sprinter.h"
-#include "resources.h"
 #include "splib_evo.h"
-
-#include "fases.h"
-#include "sprites.h"
 #include "evo_ts.h"
+
+#include "resources.h"
 
 struct sp_Rect spritesClipValues;
 struct sp_Rect *spritesClip;
@@ -66,6 +64,7 @@ void main (void)
     wyz_play_sound(7, CANAL_FX);
     wait_for_a_key(200);
     fade_out();
+    pal_select(PAL_CREDITS);
     unpack_screen(IMG_CREDITS, PAL_CREDITS);
     wyz_play_sound (7, CANAL_FX);
     wait_for_a_key(500);

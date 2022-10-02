@@ -1,4 +1,3 @@
-
 set output=Spaceship
 set runZXMak=Yes
-call %ZXSDK%compile.bat
+call %ZXSDK%compileExe.bat

@@ -68,7 +68,10 @@ if not exist %output%.exe (
     end
 )
 
-if not %runZXMak%==Yes end
+if not %runZXMak%==Yes (
+    rd /s /q %temp%
+    end
+)
 
 echo Copy to VHD...
 

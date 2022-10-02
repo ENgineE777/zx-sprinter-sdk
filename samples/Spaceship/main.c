@@ -1,5 +1,5 @@
 #include "sprinter.h"
-#include "splib_evo.h"
+#include "splib.h"
 
 #define CANAL_FX        1
 

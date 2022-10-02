@@ -41,16 +41,16 @@ typedef struct
     u8 x, y, speed, sprite;
 } Star;
 
-u8 stars_count = 16;
-Star stars[16];
+u8 stars_count = 12;
+Star stars[12];
 
 typedef struct
 {
     u8 x, y, speed;
 } Rock;
 
-u8 rocks_count = 4;
-Rock rocks[4];
+u8 rocks_count = 2;
+Rock rocks[2];
 
 typedef struct
 {
@@ -208,6 +208,7 @@ void main()
 
         //big rock
 
+        /* Big rock is not working properly on real Gradware. Commenting out this right now
         if (big_rock_timer > 0)
         {
             big_rock_timer--;       
@@ -228,7 +229,7 @@ void main()
 
                 draw_big_rock();
             }
-        }
+        }*/
         
         //ship
         spaceship_timer++;

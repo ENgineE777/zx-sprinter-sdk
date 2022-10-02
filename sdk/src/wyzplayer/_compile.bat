@@ -1,5 +1,2 @@
 
-rem TODO
-
-sjasmplus wyzplayer.asm
-
+..\..\thirdparty\sjasmplus\sjasmplus wyzplayer.asm

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mksound", "mksound\mksound.vcxproj", "{C683D7E1-BB7C-4B1D-B26F-E66FAEC4B51A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C683D7E1-BB7C-4B1D-B26F-E66FAEC4B51A}.Debug|x64.ActiveCfg = Debug|x64
+		{C683D7E1-BB7C-4B1D-B26F-E66FAEC4B51A}.Debug|x64.Build.0 = Debug|x64
+		{C683D7E1-BB7C-4B1D-B26F-E66FAEC4B51A}.Debug|x86.ActiveCfg = Debug|Win32
+		{C683D7E1-BB7C-4B1D-B26F-E66FAEC4B51A}.Debug|x86.Build.0 = Debug|Win32
+		{C683D7E1-BB7C-4B1D-B26F-E66FAEC4B51A}.Release|x64.ActiveCfg = Release|x64
+		{C683D7E1-BB7C-4B1D-B26F-E66FAEC4B51A}.Release|x64.Build.0 = Release|x64
+		{C683D7E1-BB7C-4B1D-B26F-E66FAEC4B51A}.Release|x86.ActiveCfg = Release|Win32
+		{C683D7E1-BB7C-4B1D-B26F-E66FAEC4B51A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {512B8161-EACF-406E-BF6D-57D6F04E1C03}
+	EndGlobalSection
+EndGlobal

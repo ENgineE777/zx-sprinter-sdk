@@ -11,11 +11,16 @@
 #define ROCK_SPEED rand8() % 10 + 2
 #define BIG_ROCK_SPEED rand8() % 4 + 2
 #define BIG_ROCK_TIMER rand8() % 64 + 32
-#define STAR_SPEED rand8() % 8 + 2
+#define STAR_SPEED rand8() % 12 + 2
 
 #define SPACESHIP_X 60
 #define SPACESHIP_Y 75.0f
 #define SPACESHIP_WAVE_HEIGHT 35.0f
+
+struct sp_Rect *sp_ClipStruct;
+
+struct sp_Rect spritesClipValues;
+struct sp_Rect *spritesClip;
 
 u8 rand8()
 {
@@ -151,7 +156,7 @@ void main()
 {
     sprites_start();
 
-    wyz_play_music (5);
+    wyz_play_music (0);
 
     pal_bright(15);
     unpack_screen(0, 2);

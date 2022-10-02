@@ -1,4 +1,4 @@
-    device pentagon1024
+     device ZXSPECTRUM1024
 
 ; SPECTRUM PSG PLAYER V 3.7 - WYZ 2006
 
@@ -1174,61 +1174,13 @@ PAUTA_10:	DB	75,41,8,7,6,129
 ;** EFECTOS DE SONIDO                                       **
 ;*************************************************************
 
-TABLA_SONIDOS:  DW      SONIDO1,SONIDO2,SONIDO3,SONIDO4 ;,SONIDO5,SONIDO6,SONIDO7,SONIDO8, SONIDO9,SONIDO10,SONIDO11
-
-; Estos son los sonidos que exporta el Tracker de Augus y que se corresponden con las bateras:
-
-SONIDO1:	DB	209,63,0,209,78,0,69,109,0,255
-SONIDO2:	DB	69,47,0,232,44,5,0,57,2,255
-SONIDO3:	DB	0,11,1,0,6,1,255
-SONIDO4:	DB	186,58,0,0,102,0,162,131,0,255
+[SFX]
 
 ;*************************************************************
 ;** CANCIONES                                               **
 ;*************************************************************
 
-TABLA_SONG:     DW      SONG_0, SONG_1, SONG_2 , SONG_3, SONG_4, SONG_5, SONG_6, SONG_7, SONG_8, SONG_9          
-
-;*************************************************************
-;** NOTAS Y ENVOLVENTES                                     **
-;*************************************************************
-
-DATOS_NOTAS:    INCBIN "NOTAS.DAT"        ;DATOS DE LAS NOTAS
-DATOS_ENV:      INCBIN "ENV.DAT"          ;DATOS DE LAS ENVOLVENTES
-
-; INCLUIR AQU� LOS FICHEROS DE LAS CANCIONES. ACORD�NDOSE DE PONER LAS ETIQUETAS 
-; EN LA TABLA TABLA_SONG UNAS LINEAS M�S ARRIBA DE ESTE TEXTO <****>
-
-; [0] 
-SONG_0:         INCBIN "UWOLFantasma.mus"
-
-; [1] 
-SONG_1:         INCBIN "UWOLZona1.mus"
-
-; [2]	
-SONG_2:			INCBIN "UWOLZona2.mus"		
-
-; [3] 
-SONG_3:         INCBIN "UWOLZona3.mus"		
-
-; [4]	
-SONG_4:			INCBIN "UWOLZona4.mus"		
-
-; [5]
-SONG_5:			INCBIN "UWOLMenu.mus"
-
-; [6]
-SONG_6: 		INCBIN "UWOLPiramide.mus"
-
-; [7]
-SONG_7:			INCBIN "UWOLGameOver.mus"
-
-; [8]
-SONG_8:			INCBIN "UWOLEndingKO.mus"
-
-; [9]
-SONG_9:			INCBIN "UWOLEndingOK.mus"
-
+[MUSIC]
 
 ; VARIABLES__________________________
 

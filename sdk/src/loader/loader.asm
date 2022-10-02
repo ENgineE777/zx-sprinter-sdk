@@ -181,4 +181,4 @@ end
 
 		display "File size ",/d,end-begin," bytes"
 
-		savebin "loader.exe",begin,end-begin
+		savebin "../../bin/loader.exe",begin,end-begin

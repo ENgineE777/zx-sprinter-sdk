@@ -907,4 +907,4 @@ end
 
 	display "Size ",/d,end-begin," bytes"
 
-	savebin "startup.bin",begin,end-begin
+	savebin "../../bin/startup.bin",begin,end-begin

@@ -1,4 +1,4 @@
-		device pentagon1024
+		device ZXSPECTRUM1024
 
 		org $8100-512
 		include "dss_equ.asm"
@@ -95,7 +95,7 @@ loadDone:
 		ld bc,$100
 		ldir
 
-		ld a,$50 : out (PAGE1),a ; обнуление палитр 0 и 1
+		ld a,$50 : out (PAGE1),a ; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 0 пїЅ 1
 		ld hl,$0
 		di
 		ld d,d
@@ -113,7 +113,7 @@ loadDone:
 		ld c,a
 		ld (_oldvmode),bc
 
-		ld a,GFX_320_256    ; графический режим 320х256х256
+		ld a,GFX_320_256    ; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ 320пїЅ256пїЅ256
 		ld bc,Dss.SetVMod
 		rst $10
 
@@ -173,7 +173,7 @@ mem_handle:	db 0
 ;porty_n:	db "00",CR,LF,0
 messageErr:	db CR,LF,"Loading error.",CR,LF,0
 messageErrMem:	db CR,LF,"Not enough memory.",CR,LF,0
-messageStr:	db CR,LF,"UWOL QUEST FOR MONEY v0.99RC IS LOADING.",CR,LF,0
+messageStr:	db CR,LF,"LOADING...",CR,LF,0
 
 memory_pages:	ds 256,0
 		align 256

@@ -1,6 +1,4 @@
-path=..\..\tools\sdcc410\bin;..\..\tools
-
-sjasmplus loader.asm
+..\..\thirdparty\sjasmplus\sjasmplus loader.asm
 
 pause
 

@@ -1,4 +1,4 @@
-		device pentagon1024
+		device ZXSPECTRUM1024
 		define ZXMAK
 ;MEM_SLOT0=#37f7
 ;MEM_SLOT1=#77f7

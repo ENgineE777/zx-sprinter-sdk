@@ -1,4 +1,3 @@
-
-sjasmplus lib_startup.asm
+..\..\thirdparty\sjasmplus\sjasmplus lib_startup.asm
 
 pause

@@ -18,3 +18,5 @@ All images sits in Sprites folder. There you need to define img.lst with referec
 Sounds sits in Sound. Also descriptor file snd.lst refers to your music files plus data for SFX.
 You can have only one c files, to compile it please _compile.bat in Samples\Spaceship
 
+If you don't need to run ZXMak after compile then you can remove "set runZXMak=Yes" in _compile.bat
+

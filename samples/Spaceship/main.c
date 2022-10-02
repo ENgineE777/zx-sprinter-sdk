@@ -26,16 +26,6 @@ u8 rand8()
     return (u8)(rand16());
 }
 
-void make_black()
-{
-    i16 i,j;
- 
-    for(i=0;i<24;i++)
-    {
-        for(j=0;j<32;j++) sp_AttrSet(j,i,0);
-    }
-}
-
 typedef struct
 {
     u8 x, y, speed, sprite;

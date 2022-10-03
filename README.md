@@ -20,3 +20,6 @@ You can have only one c files, to compile it please _compile.bat in Samples\Spac
 
 If you don't need to run ZXMak after compile then you can remove "set runZXMak=Yes" in _compile.bat
 
+To fastest start please duplicate StartProject from samples anywhere at your computer. This will gives you simplest
+compilable and workable project.
+

@@ -84,5 +84,5 @@ call %ZXSDK%\zxmak\HDD\unmount.bat
 
 %ZXSDK%\zxmak\ZXMAK2.exe
 
-CLEANUP:
+:CLEANUP:
 rd /s /q %temp%

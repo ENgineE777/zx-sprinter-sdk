@@ -10,4 +10,7 @@ echo assign letter = Z: >> zxmak\HDD\mount.txt
 echo select vdisk file="%~dp0zxmak\HDD\sp_disk1.vhd">zxmak\HDD\unmount.txt
 echo detach vdisk>>zxmak\HDD\unmount.txt
 
+echo "Please restart your comand line session to apply setx"
+pause
+
 exit

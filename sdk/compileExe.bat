@@ -33,7 +33,7 @@ copy %ZXSDK%\src\wyzplayer\uwl.afb uwl.afb
 if not exist wyzplayer.asm (
     echo Error: Compilation errors in wyzplayer.asm...
     pause
-    end
+    goto CLEANUP:
 )
 
 CD ..\
@@ -47,7 +47,7 @@ CD Sprites
 if not exist gfx.dat (
     echo Error: Can't create gfx.dat
     pause
-    end
+    goto CLEANUP:
 )
 
 CD ..\
@@ -65,12 +65,12 @@ copy /b /y %ZXSDK%\bin\loader.exe + %temp%\code.bin + %temp%\wyz.bin + %temp%\gf
 if not exist %output%.exe (
     echo Error: Can't create %output%.exe
     pause
-    end
+    goto CLEANUP:
 )
 
-if not %runZXMak%==Yes (
+if not "%runZXMak%"=="Yes" (
     rd /s /q %temp%
-    end
+    exit
 )
 
 echo Copy to VHD...
@@ -82,6 +82,7 @@ copy %output%.exe Z:\%output%\%output%.exe
 
 call %ZXSDK%\zxmak\HDD\unmount.bat
 
-rd /s /q %temp%
-
 %ZXSDK%\zxmak\ZXMAK2.exe
+
+CLEANUP:
+rd /s /q %temp%

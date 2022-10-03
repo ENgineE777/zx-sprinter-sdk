@@ -9,7 +9,7 @@ mkdir %temp%
 if not exist %temp%\out.ihx (
     echo Error: Compilation errors in main.c...
     pause
-    exit
+    goto CLEANUP:
 )
 
 echo Converting out.ihx...
@@ -70,7 +70,7 @@ if not exist %output%.exe (
 
 if not "%runZXMak%"=="Yes" (
     rd /s /q %temp%
-    exit
+    goto CLEANUP:
 )
 
 echo Copy to VHD...

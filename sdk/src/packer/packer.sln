@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32802.440
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mksound", "mksound\mksound.vcxproj", "{C683D7E1-BB7C-4B1D-B26F-E66FAEC4B51A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "packer", "packer\packer.vcxproj", "{C683D7E1-BB7C-4B1D-B26F-E66FAEC4B51A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

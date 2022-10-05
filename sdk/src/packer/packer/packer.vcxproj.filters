@@ -15,13 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="mksound.cpp">
+    <ClCompile Include="packer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="vjson\block_allocator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="vjson\json.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mksound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mkcode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mkimage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

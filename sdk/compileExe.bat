@@ -16,11 +16,11 @@ echo Converting out.ihx...
 
 CD %temp%
 
-%ZXSDK%\bin\mkcode.exe out.ihx %ZXSDK%\bin\startup.bin
+%ZXSDK%\bin\packer.exe -mkcode out.ihx %ZXSDK%\bin\startup.bin code.bin
 
 echo Building wyz.bin ...
 
-%ZXSDK%\bin\mksound.exe %ZXSDK%\src\wyzplayer\wyzplayer.asm ..\Sound\snd.lst wyzplayer.asm
+%ZXSDK%\bin\packer.exe -mksound %ZXSDK%\src\wyzplayer\wyzplayer.asm.template ..\Sound\snd.lst wyzplayer.asm
 
 copy %ZXSDK%\src\wyzplayer\ayfxplay.asm ayfxplay.asm
 copy %ZXSDK%\src\wyzplayer\env.dat env.dat
@@ -42,7 +42,7 @@ echo Building gfx.dat...
 
 CD Sprites
 
-%ZXSDK%\bin\mkimg.exe img.lst gfx.dat
+%ZXSDK%\bin\packer.exe -mkimage img.lst gfx.dat
 
 if not exist gfx.dat (
     echo Error: Can't create gfx.dat

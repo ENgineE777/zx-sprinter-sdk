@@ -1,5 +1,4 @@
-﻿
-#include <vector>
+﻿#include <vector>
 #include <string>
 #include "vjson/json.h"
 #include "vjson/block_allocator.h"
@@ -28,7 +27,7 @@ std::vector<SoundEntry> sounds;
 bool load_asm_template(const char* name)
 {
 	FILE* file = nullptr;
-	
+
 	fopen_s(&file, name, "rb");
 
 	if (!file) return false;
@@ -148,23 +147,23 @@ bool save_asm(const char* name)
 	return true;
 }
 
-int main(int argc, char* argv[])
+int pack_sound(int argc, char* argv[])
 {
-    if (argc < 4)
-    {
-        printf("Error: Please provide asm template, list of files and output asm file in parameters\n");
-        return 1;
-    }
-
-	if (!load_asm_template(argv[1]))
+	if (argc < 4)
 	{
-		printf("Error: can't load asm template\n");
+		printf("mksound:Error: Please provide asm template, list of files and output asm file in parameters\n");
 		return 1;
 	}
 
-	if (!load_list(argv[2]))
+	if (!load_asm_template(argv[2]))
 	{
-		printf("Error: can't load list\n");
+		printf("mksound:Error: can't load asm template\n");
+		return 1;
+	}
+
+	if (!load_list(argv[3]))
+	{
+		printf("mksound:Error: can't load list\n");
 		return 1;
 	}
 
@@ -236,7 +235,11 @@ int main(int argc, char* argv[])
 		assembly.replace(start_pos, musicTag.length(), music);
 	}
 
-	save_asm(argv[3]);
+	if (!save_asm(argv[4]))
+	{
+		printf("mksound:Error: can't save asm file\n");
+		return 1;
+	}
 
 	return 0;
 }

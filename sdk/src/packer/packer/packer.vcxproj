@@ -22,7 +22,7 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{c683d7e1-bb7c-4b1d-b26f-e66faec4b51a}</ProjectGuid>
-    <RootNamespace>mksound</RootNamespace>
+    <RootNamespace>packer</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -141,7 +141,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="mkcode.cpp" />
+    <ClCompile Include="mkimage.cpp" />
     <ClCompile Include="mksound.cpp" />
+    <ClCompile Include="packer.cpp" />
     <ClCompile Include="vjson\block_allocator.cpp" />
     <ClCompile Include="vjson\json.cpp" />
   </ItemGroup>

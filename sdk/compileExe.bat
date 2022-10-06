@@ -1,6 +1,7 @@
 
 set temp=_temp_
 
+echo off
 echo Compiling code...
 
 mkdir %temp%
@@ -56,14 +57,22 @@ copy Sprites\gfx.dat %temp%\gfx.dat
 
 del Sprites\gfx.dat
 
-del %output%.exe
+set output=%output:~0,8%
 
-echo Creating exe...
+setlocal enableDelayedExpansion
 
-copy /b /y %ZXSDK%\bin\loader.exe + %temp%\code.bin + %temp%\wyz.bin + %temp%\gfx.dat %output%.exe
+for %%A in (A B C D E F G H I J K L M N O P Q R S T U V W X Y Z) do (
+    set "output=!output:%%A=%%A!"
+)
 
-if not exist %output%.exe (
-    echo Error: Can't create %output%.exe
+del %output%.EXE
+
+echo Creating EXE...
+
+copy /b /y %ZXSDK%\bin\loader.exe + %temp%\code.bin + %temp%\wyz.bin + %temp%\gfx.dat %output%.EXE
+
+if not exist %output%.EXE (
+    echo Error: Can't create %output%.EXE
     pause
     goto CLEANUP:
 )
@@ -78,10 +87,11 @@ echo Copy to VHD...
 call %ZXSDK%\zxmak\HDD\mount.bat
 
 mkdir Z:\%output%
-copy %output%.exe Z:\%output%\%output%.exe
+copy %output%.exe Z:\%output%\%output%.EXE
 
 call %ZXSDK%\zxmak\HDD\unmount.bat
 
+echo Launching ZXMAK2...
 %ZXSDK%\zxmak\ZXMAK2.exe
 
 :CLEANUP:

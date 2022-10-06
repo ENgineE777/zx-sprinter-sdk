@@ -42,7 +42,7 @@ echo Building gfx.dat...
 
 CD Sprites
 
-%ZXSDK%\bin\packer.exe -mkimage img.lst gfx.dat
+%ZXSDK%\bin\mkimg.exe img.lst gfx.dat
 
 if not exist gfx.dat (
     echo Error: Can't create gfx.dat

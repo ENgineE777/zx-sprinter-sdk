@@ -147,7 +147,6 @@ void main()
 
     wyz_play_music (0);
 
-    pal_bright(15);
     unpack_screen(0, 2);
 
     init();

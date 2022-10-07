@@ -16,35 +16,22 @@ session before compile any projects.
 
 ## Structure of your project
 
-root
 
-+---Sprites
-
-    +---img.lst
-
-    +---YourTilesImage256x64.bmp
-
-    +---YourSpriesImage256x64.bmp
-
-    +---Image01_256x198.bmp
-
-    +---Image02_256x198.bmp
-
-    +---...
-
-+---Sound
-
-    +---snd.lst
-
-    +---Music001.mus
-
-    +---Music002.mus
-
-    +---...
-
-_compile.bat
-
-main.c
+    +---root
+        +---Sprites
+            +---img.lst
+            +---YourTilesImage256x64.bmp
+            +---YourSpriesImage256x64.bmp
+            +---Image01_256x198.bmp
+            +---Image02_256x198.bmp
+            +---...
+        +---Sound
+            +---snd.lst
+            +---Music001.mus
+            +---Music002.mus
+            +---...
+        _compile.bat
+        main.c
 
 To fastest start please duplicate StartProject from samples anywhere at your computer. This will gives you simplest
 compilable and workable project.

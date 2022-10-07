@@ -9,7 +9,7 @@ development of your games for Sprinter.
 
 **before you start**
 
-Important: before use sdk you need to execute registerSDK.bat in sdk folder for registering path to sdk
+Important: before use SDK you need to execute registerSDK.bat in SDK folder for registering path to SDK
 in enviroment variable and preparing ZXMak2 to launch your compiled games. Also this will make possible to store source of
 your game at any location on a computer and be able to compile via SDK. After registration you need to restart your
 session before compile any projects.
@@ -67,7 +67,7 @@ Spaceship demo project located in samples folder. Demo represents a small demo o
 
 UWOL is a fulll game located in sample folder. This port made by BLADE gave a spark to this SDK. 
 
-**Limiations of SDK**
+**Limitations of SDK**
 
 Only resolution 256 x 192, 256 colors supported by SDK for now. All used BMP must be with 256 color palette, but only
 first 64 colors in pallete will be usded. Max size of tile sheet and sprite sheet restricted to 256 x 64, but width always

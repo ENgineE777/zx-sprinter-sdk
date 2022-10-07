@@ -75,4 +75,7 @@ should be 256.
 
 In terms of perfomance you can draw max 19 without problems with perfomance on a real hardware
 
+At first glance not much can be done, but remember, original ZX Spectrum 48 has much more tight restrictions and despite
+them it is posible to creeate gems like Alien Neoplasma. 
+
 

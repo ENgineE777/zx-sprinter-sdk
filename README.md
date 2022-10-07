@@ -4,15 +4,15 @@ This is SDK for Sprinter ZX-Spectrum (Nedo PC). Code is based on Sprinter port o
 In the Spriter port lots of tools from evo SDK were adopted. Therefore philosophy behind Evo SDK was preserved and
 continued in a form of user friendly toolset.
 
-SDK shares philosophy out of the box ready, so everything inside the repository. Checking of examples is a good starting for
+SDK shares philosophy out of the box ready, so everything inside the repository. Checking of examples is a good star point for
 development of your games for Sprinter.
 
 **before you start**
 
 Important: before use sdk you need to execute registerSDK.bat in sdk folder for registering path to sdk
-in enviroment variable and preparing ZXMak2 to launch you compiled games. AAlso this will make possible to store source of
+in enviroment variable and preparing ZXMak2 to launch your compiled games. Also this will make possible to store source of
 your game at any location on a computer and be able to compile via SDK. After registration you need to restart your
-session before compile projects from samples folder.
+session before compile any projects.
 
 **Structure of your project**
 
@@ -55,9 +55,9 @@ can be draw via sp_PrintAtInv or draw_tile. Next always will go sprite sheet wit
 to 256 x 64, and again width always should be 256. Sprite can be draw via add_sprite call.
 Next goes 256x192 images whihc can be draw by unpack_screen call.
 
-Sounds sit in Sound. Also descriptor file snd.lst refers to your music files plus data for SFX.
-You can have only one c file with harcoded name main, i.e. your code resides in main.c plus headers, to compile
-please _compile.bat in Samples\StartProject
+Sounds sit in Sound folder. Also descriptor file snd.lst in json format refers to your music files plus data for SFX.
+You can have only one c file with harcoded name main, i.e. your code resides in main.c plus headers. To compile
+you need to call _compile.bat.
 
 If you don't need to run ZXMak after compile then you can remove "set runZXMak=Yes" in _compile.bat
 
@@ -73,7 +73,7 @@ Only resolution 256 x 192, 256 colors supported by SDK for now. All used BMP mus
 first 64 colors in pallete will be usded. Max size of tile sheet and sprite sheet restricted to 256 x 64, but width always
 should be 256.
 
-In terms of perfomance you can draw max 19 without problems with perfomance on a real hardware
+In terms of perfomance you can draw max 19 without perfomance problems on a real hardware
 
 At first glance not much can be done, but remember, original ZX Spectrum 48 has much more tight restrictions and despite
 them it is posible to creeate gems like Alien Neoplasma. 

@@ -1659,6 +1659,8 @@ i8 espera_activa (i16 espera) {
 //		update_palette();
         sp_UpdateNow();
 		
+        check_to_quit(1);
+        
         if (sp_GetKey() && res == 1)
             {
                 res = 0;

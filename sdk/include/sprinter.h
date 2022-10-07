@@ -153,3 +153,14 @@ void unpack_screen(const u8 id,u8 pal)
     swap_screen();
     fade_from_black();
 }
+
+void check_to_quit(u8 any_key)
+{
+    u8 j = joystick();
+    
+    if (j == JOY_ESC || (any_key && j&(JOY_FIRE|JOY_START)))
+    {
+        quit();
+    }
+}
+

@@ -251,11 +251,6 @@ void main()
 
         swap_screen();
 
-        if (sp_GetKey())
-        {
-            break;
-        }
+        check_to_quit(1);
     }
-
-    quit();
 }

@@ -13,11 +13,6 @@ void main()
     {
         sp_UpdateNow();
 		
-        if (sp_GetKey())
-        {
-            break;
-        }
-    }
-
-    quit();
+        check_to_quit(1);
+    }    
 }

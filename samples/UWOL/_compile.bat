@@ -6,6 +6,6 @@ if "%ZXSDK%"=="" (
 )
 
 set output=UWOL
-set version=0.99
+set version=1.0
 set runZXMak=Yes
 call %ZXSDK%compileExe.bat

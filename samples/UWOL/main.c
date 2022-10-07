@@ -1087,6 +1087,11 @@ u8 game (u8 n_pant) {
  
     	j = joyfunc(); // Leemos del teclado
     	
+        if ((j^0xffff)&sp_ESC)
+        {
+            quit();
+        }
+
     	if((j^0xffff)&sp_START)
     	{
     		if(!pause_cnt)
@@ -1614,6 +1619,11 @@ void piramide (i8 npant) {
         }
         j = (j + 1) % 12;
         i = joyfunc() ^ 0xFFFF;
+
+        if (i == sp_ESC)
+        {
+            quit();
+        }
     } while (!(i & (sp_FIRE | sp_START)));
  
     wyz_stop_sound ();

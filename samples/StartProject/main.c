@@ -8,9 +8,17 @@ void main()
     wyz_play_music (0);
 
     pal_bright(15);
-    unpack_screen(0, 2);
+    unpack_screen(0, 2);    
 
-    while (1)
+    while(1)
     {
+        sp_UpdateNow();
+		
+        if (sp_GetKey())
+        {
+            break;
+        }
     }
+
+    quit();
 }

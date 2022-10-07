@@ -251,5 +251,12 @@ void main()
         end_sprite();
 
         swap_screen();
+
+        if (sp_GetKey())
+        {
+            break;
+        }
     }
+
+    quit();
 }

@@ -1,4 +1,4 @@
-### zx-sprinter-sdk
+## zx-sprinter-sdk
 
 This is SDK for Sprinter ZX-Spectrum (Nedo PC). Code is based on Sprinter port of Evo version of the game Uwol: Quest For Money.
 In the Spriter port lots of tools from evo SDK were adopted. Therefore philosophy behind Evo SDK was preserved and
@@ -7,14 +7,14 @@ continued in a form of user friendly toolset.
 SDK shares philosophy out of the box ready, so everything inside the repository. Checking of examples is a good star point for
 development of your games for Sprinter.
 
-### Before you start
+## Before you start
 
 Important: before use SDK you need to execute registerSDK.bat in SDK folder for registering path to SDK
 in enviroment variable and preparing ZXMak2 to launch your compiled games. Also this will make possible to store source of
 your game at any location on a computer and be able to compile via SDK. After registration you need to restart your
 session before compile any projects.
 
-### Structure of your project
+## Structure of your project
 
 
     +---root
@@ -48,13 +48,13 @@ you need to call _compile.bat.
 
 If you don't need to run ZXMak after compile then you can remove "set runZXMak=Yes" in _compile.bat
 
-### Demo projects
+## Demo projects
 
 **Spaceship** demo project located in samples folder. Demo represents a small demo of flying spaceship with nice graphics
 
 **UWOL** is a fulll game located in samples folder. This port made by BLADE gave a spark to this SDK. 
 
-### Limitations of SDK
+## Limitations of SDK
 
 Only resolution 256 x 192, 256 colors supported by SDK for now. All used BMP must be with 256 color palette, but only
 first 64 colors in pallete will be usded. Max size of tile sheet and sprite sheet restricted to 256 x 64, but width always

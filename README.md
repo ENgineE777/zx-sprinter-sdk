@@ -48,7 +48,7 @@ you need to call _compile.bat.
 
 If you don't need to run ZXMak after compile then you can remove "set runZXMak=Yes" in _compile.bat
 
-## Demo project
+## Demo projects
 
 **Spaceship** demo project located in samples folder. Demo represents a small demo of flying spaceship with nice graphics
 

@@ -33,12 +33,21 @@
     <ClCompile Include="mkimage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="mkloader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="vjson\block_allocator.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="vjson\json.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

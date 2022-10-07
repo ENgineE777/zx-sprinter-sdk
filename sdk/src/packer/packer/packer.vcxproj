@@ -141,14 +141,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="common.cpp" />
     <ClCompile Include="mkcode.cpp" />
     <ClCompile Include="mkimage.cpp" />
+    <ClCompile Include="mkloader.cpp" />
     <ClCompile Include="mksound.cpp" />
     <ClCompile Include="packer.cpp" />
     <ClCompile Include="vjson\block_allocator.cpp" />
     <ClCompile Include="vjson\json.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="common.h" />
     <ClInclude Include="vjson\block_allocator.h" />
     <ClInclude Include="vjson\json.h" />
   </ItemGroup>

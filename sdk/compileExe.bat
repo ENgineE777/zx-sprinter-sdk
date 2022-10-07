@@ -19,6 +19,15 @@ CD %temp%
 
 %ZXSDK%\bin\packer.exe -mkcode out.ihx %ZXSDK%\bin\startup.bin code.bin
 
+echo Compiling loader
+
+copy %ZXSDK%\src\loader\bios_equ.asm bios_equ.asm
+copy %ZXSDK%\src\loader\dss_equ.asm dss_equ.asm
+copy %ZXSDK%\src\loader\sprint00.asm sprint00.asm
+
+%ZXSDK%\bin\packer.exe -mkloader %ZXSDK%\src\loader\loader.asm loader.asm %output% %version%
+%ZXSDK%\thirdparty\sjasmplus\sjasmplus loader.asm
+
 echo Building wyz.bin ...
 
 %ZXSDK%\bin\packer.exe -mksound %ZXSDK%\src\wyzplayer\wyzplayer.asm.template ..\Sound\snd.lst wyzplayer.asm
@@ -69,7 +78,7 @@ del %output%.EXE
 
 echo Creating EXE...
 
-copy /b /y %ZXSDK%\bin\loader.exe + %temp%\code.bin + %temp%\wyz.bin + %temp%\gfx.dat %output%.EXE
+copy /b /y %temp%\loader.exe + %temp%\code.bin + %temp%\wyz.bin + %temp%\gfx.dat %output%.EXE
 
 if not exist %output%.EXE (
     echo Error: Can't create %output%.EXE

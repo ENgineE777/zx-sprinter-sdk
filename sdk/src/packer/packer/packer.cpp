@@ -6,6 +6,7 @@
 extern int pack_sound(int argc, char* argv[]);
 extern int pack_code(int argc, char* argv[]);
 extern int pack_image(int argc, char* argv[]);
+extern int pack_loader(int argc, char* argv[]);
 
 int main(int argc, char* argv[])
 {
@@ -24,7 +25,12 @@ int main(int argc, char* argv[])
 		return pack_image(argc, argv);
 	}
 
-	printf("Error: Please set -mksound or -mkcode or -mkimage and pass needed parameters\n");
+	if (argc > 1 && _stricmp(argv[1], "-mkloader") == 0)
+	{
+		return pack_loader(argc, argv);
+	}
+
+	printf("Error: Please set -mksound or -mkcode or -mkimage or -mkloader and pass needed parameters\n");
 
 	return 1;
 }

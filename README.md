@@ -50,11 +50,12 @@ To fastest start please duplicate StartProject from samples anywhere at your com
 compilable and workable project.
 
 All images sits in Sprites folder. There you need to define img.lst with referecnes to your image files.
-First will go image for 8x8 tiles. Size of tile sheet restricted to 256 x 64. Tiles can be draw via sp_PrintAtInv or draw_tile.
-Second always will go sprite sheet of 16x16 sprites, size also is restricted to 256 x 64. Size draw via add_sprite call.
+First will go image for 8x8 tiles. Max size of tile sheet restricted to 256 x 64, but width always should be 256. Tiles
+can be draw via sp_PrintAtInv or draw_tile. Next always will go sprite sheet with 16x16 sprites, max size also is restricted
+to 256 x 64, and again width always should be 256. Sprite can be draw via add_sprite call.
 Next goes 256x192 images whihc can be draw by unpack_screen call.
 
-Sounds sits in Sound. Also descriptor file snd.lst refers to your music files plus data for SFX.
+Sounds sit in Sound. Also descriptor file snd.lst refers to your music files plus data for SFX.
 You can have only one c file with harcoded name main, i.e. your code resides in main.c plus headers, to compile
 please _compile.bat in Samples\StartProject
 
@@ -65,5 +66,13 @@ If you don't need to run ZXMak after compile then you can remove "set runZXMak=Y
 Spaceship demo project located in samples folder. Demo represents a small demo of flying spaceship with nice graphics
 
 UWOL is a fulll game located in sample folder. This port made by BLADE gave a spark to this SDK. 
+
+**Limiations of SDK**
+
+Only resolution 256 x 192, 256 colors supported by SDK for now. All used BMP must be with 256 color palette, but only
+first 64 colors in pallete will be usded. Max size of tile sheet and sprite sheet restricted to 256 x 64, but width always
+should be 256.
+
+In terms of perfomance you can draw max 19 without problems with perfomance on a real hardware
 
 

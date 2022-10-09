@@ -14,6 +14,9 @@ in enviroment variable and preparing ZXMak2 to launch your compiled games. Also 
 your game at any location on a computer and be able to compile via SDK. After registration you need to restart your
 session before compile any projects.
 
+If you want to launch your project on areal hardware then you can execute sdk/compileLibs.bat and this will compile with braches
+for a real hardware in asm code.
+
 ## Structure of your project
 
 

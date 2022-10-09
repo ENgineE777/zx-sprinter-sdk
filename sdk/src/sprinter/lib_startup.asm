@@ -1,5 +1,5 @@
 		device ZXSPECTRUM1024
-		define ZXMAK
+
 ;MEM_SLOT0=#37f7
 ;MEM_SLOT1=#77f7
 ;MEM_SLOT2=#b7f7

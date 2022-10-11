@@ -41,6 +41,26 @@ unsigned int read_word(unsigned char* data)
 	return data[0] + (data[1] << 8);
 }
 
+int __cdecl mkcolor(int a1, int a2, int a3)
+{
+	int v4; // [esp-8h] [ebp-8h]
+
+	if (a3 > 15)
+	{
+		v4 = (a3 - 15) * a2 / 15 + a1;
+		if (v4 > a2)
+			v4 = a2;
+	}
+	else
+	{
+		v4 = a3 * a1 / 15;
+		if (v4 > a2)
+			v4 = a2;
+	}
+	return v4;
+}
+
+
 bool load_bmp(const char* filename, int index, int page)
 {
 	FILE* file = nullptr;
@@ -86,19 +106,19 @@ bool load_bmp(const char* filename, int index, int page)
 	//load pallete
 	{
 		unsigned char* src = &BMP.data[54];
-		unsigned char* dest = &image_mem[192 * (page - 1)];
+		unsigned char* dest = &image_mem[192 * index];
 
 		int index = 54;
 
 		for (int i = 0; i < 64; i++)
 		{
-			unsigned char b = BMP.data[index++];
-			unsigned char g = BMP.data[index++];
 			unsigned char r = BMP.data[index++];
+			unsigned char g = BMP.data[index++];
+			unsigned char b = BMP.data[index++];
 
-			dest[i * 3 + 0] = r;
+			dest[i * 3 + 0] = b;
 			dest[i * 3 + 1] = g;
-			dest[i * 3 + 2] = b;
+			dest[i * 3 + 2] = r;
 
 			index++;
 		}
@@ -134,31 +154,14 @@ int pack_image(int argc, char* argv[])
 {
 	if (argc < 4)
 	{
-		printf("mkimage:Error: Please provide ihx, path to startup code and output file in parameters\n");
+		printf("mkimage:Error: Please provide image list and output file in parameters\n");
 		return 1;
 	}
 
 	FILE* list;
 	char line[1024];
 
-	//memset(image_mem, 0, image_mem_size);
-
-	{
-		FILE* file;
-		fopen_s(&file, argv[3], "rb");
-
-		if (!file) return 1;
-
-		fseek(file, 0, SEEK_END);
-		int size = ftell(file);
-		fseek(file, 0, SEEK_SET);
-
-		char ptr[PAGE_SIZE];
-		fread(ptr, PAGE_SIZE, 1, file);
-		fclose(file);
-
-		memcpy(&image_mem[8196], &ptr[8196], 8196);
-	}
+	memset(image_mem, 0, image_mem_size);
 
 	fopen_s(&list, argv[2], "rt");
 
@@ -192,16 +195,17 @@ int pack_image(int argc, char* argv[])
 
 	fclose(list);
 
-	for (int i = 0; i < 30; i++)
+	for (int i = 0; i <= 30; ++i)
 	{
-		for (int j = 0; j < 256; j++)
+		for (int j = 0; j <= 255; ++j)
 		{
-			//image_mem[i * 256 + j + 8192] = j;
+			int index = (i << 8) + j + 0x2000;
+			image_mem[index] = mkcolor(j, 255, i);
 		}
 	}
 
 	FILE* file = nullptr;
-	fopen_s(&file, argv[4], "wb");
+	fopen_s(&file, argv[3], "wb");
 
 	if (!file)
 	{

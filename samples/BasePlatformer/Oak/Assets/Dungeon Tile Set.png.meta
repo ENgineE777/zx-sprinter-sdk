@@ -1,0 +1,4139 @@
+﻿{
+
+	"textureFilter" : 0,
+	"texturMode" : 0,
+	"spriteSheet" :
+	{
+		"sizeX" : 240.000000,
+		"sizeY" : 288.000000,
+		"count" : 133,
+		"Sheet" : [
+			{
+				"name" : "Slice0",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : true,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice1",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 32.000000,
+					"y" : 16.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : true,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice2",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 48.000000,
+					"y" : 16.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : true,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice3",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 80.000000,
+					"y" : 16.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice4",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 96.000000,
+					"y" : 16.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice5",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 128.000000,
+					"y" : 16.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice6",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 144.000000,
+					"y" : 16.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice7",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 160.000000,
+					"y" : 16.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice8",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 176.000000,
+					"y" : 16.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice9",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 192.000000,
+					"y" : 16.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice10",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 208.000000,
+					"y" : 16.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice11",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 16.000000,
+					"y" : 32.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : true,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice12",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 32.000000,
+					"y" : 32.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice13",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 48.000000,
+					"y" : 32.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : true,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice14",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 80.000000,
+					"y" : 32.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice15",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 96.000000,
+					"y" : 32.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice16",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 128.000000,
+					"y" : 32.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice17",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 144.000000,
+					"y" : 32.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice18",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 160.000000,
+					"y" : 32.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice19",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 176.000000,
+					"y" : 32.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice20",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 192.000000,
+					"y" : 32.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice21",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 208.000000,
+					"y" : 32.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice22",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 16.000000,
+					"y" : 48.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : true,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice23",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 32.000000,
+					"y" : 48.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : true,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice24",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 48.000000,
+					"y" : 48.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : true,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice25",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 80.000000,
+					"y" : 48.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice26",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 96.000000,
+					"y" : 48.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice27",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 128.000000,
+					"y" : 48.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice28",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 144.000000,
+					"y" : 48.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice29",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 160.000000,
+					"y" : 48.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice30",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 176.000000,
+					"y" : 48.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice31",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 192.000000,
+					"y" : 48.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice32",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 208.000000,
+					"y" : 48.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice33",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 128.000000,
+					"y" : 64.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice34",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 144.000000,
+					"y" : 64.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice35",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 160.000000,
+					"y" : 64.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice36",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 176.000000,
+					"y" : 64.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice37",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 192.000000,
+					"y" : 64.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice38",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 16.000000,
+					"y" : 80.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice39",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 32.000000,
+					"y" : 80.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice40",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 48.000000,
+					"y" : 80.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice41",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 80.000000,
+					"y" : 80.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice42",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 96.000000,
+					"y" : 80.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice43",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 128.000000,
+					"y" : 80.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice44",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 144.000000,
+					"y" : 80.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice45",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 160.000000,
+					"y" : 80.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice46",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 176.000000,
+					"y" : 80.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice47",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 192.000000,
+					"y" : 80.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice48",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 16.000000,
+					"y" : 96.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice49",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 32.000000,
+					"y" : 96.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice50",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 48.000000,
+					"y" : 96.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice51",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 96.000000,
+					"y" : 96.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice52",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 112.000000,
+					"y" : 96.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice53",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 128.000000,
+					"y" : 96.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice54",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 144.000000,
+					"y" : 96.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice55",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 160.000000,
+					"y" : 96.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice56",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 176.000000,
+					"y" : 96.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice57",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 192.000000,
+					"y" : 96.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice58",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 16.000000,
+					"y" : 112.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice59",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 32.000000,
+					"y" : 112.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice60",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 48.000000,
+					"y" : 112.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice61",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 96.000000,
+					"y" : 112.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice62",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 112.000000,
+					"y" : 112.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice63",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 128.000000,
+					"y" : 112.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice64",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 144.000000,
+					"y" : 112.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice65",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 160.000000,
+					"y" : 112.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice66",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 176.000000,
+					"y" : 112.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice67",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 192.000000,
+					"y" : 112.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice68",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 80.000000,
+					"y" : 128.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice69",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 16.000000,
+					"y" : 144.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice70",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 32.000000,
+					"y" : 144.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice71",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 48.000000,
+					"y" : 144.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice72",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 80.000000,
+					"y" : 144.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice73",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 112.000000,
+					"y" : 144.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice74",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 128.000000,
+					"y" : 144.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice75",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 144.000000,
+					"y" : 144.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice76",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 160.000000,
+					"y" : 144.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice77",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 176.000000,
+					"y" : 144.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice78",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 192.000000,
+					"y" : 144.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice79",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 208.000000,
+					"y" : 144.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice80",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 16.000000,
+					"y" : 160.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice81",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 32.000000,
+					"y" : 160.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice82",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 48.000000,
+					"y" : 160.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice83",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 80.000000,
+					"y" : 160.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice84",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 112.000000,
+					"y" : 160.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice85",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 128.000000,
+					"y" : 160.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice86",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 160.000000,
+					"y" : 160.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice87",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 192.000000,
+					"y" : 160.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice88",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 208.000000,
+					"y" : 160.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice89",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 16.000000,
+					"y" : 176.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice90",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 32.000000,
+					"y" : 176.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice91",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 80.000000,
+					"y" : 176.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice92",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 112.000000,
+					"y" : 176.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice93",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 128.000000,
+					"y" : 176.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice94",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 144.000000,
+					"y" : 176.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice95",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 160.000000,
+					"y" : 176.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice96",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 192.000000,
+					"y" : 176.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice97",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 208.000000,
+					"y" : 176.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice98",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 16.000000,
+					"y" : 192.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice99",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 32.000000,
+					"y" : 192.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice100",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 48.000000,
+					"y" : 192.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice101",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 64.000000,
+					"y" : 192.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice102",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 80.000000,
+					"y" : 192.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice103",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 96.000000,
+					"y" : 192.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice104",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 112.000000,
+					"y" : 192.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice105",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 128.000000,
+					"y" : 192.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice106",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 144.000000,
+					"y" : 192.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice107",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 160.000000,
+					"y" : 192.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice108",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 176.000000,
+					"y" : 192.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice109",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 192.000000,
+					"y" : 192.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice110",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 32.000000,
+					"y" : 208.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice111",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 64.000000,
+					"y" : 208.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice112",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 80.000000,
+					"y" : 208.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice113",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 96.000000,
+					"y" : 208.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice114",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 112.000000,
+					"y" : 208.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice115",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 128.000000,
+					"y" : 208.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice116",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 144.000000,
+					"y" : 208.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice117",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 16.000000,
+					"y" : 224.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice118",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 32.000000,
+					"y" : 224.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice119",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 48.000000,
+					"y" : 224.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice120",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 64.000000,
+					"y" : 224.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice121",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 80.000000,
+					"y" : 224.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice122",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 96.000000,
+					"y" : 224.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice123",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 160.000000,
+					"y" : 224.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice124",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 176.000000,
+					"y" : 224.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice125",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 192.000000,
+					"y" : 224.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice126",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 208.000000,
+					"y" : 224.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice127",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 112.000000,
+					"y" : 240.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice128",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 128.000000,
+					"y" : 240.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice129",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 144.000000,
+					"y" : 240.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice130",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 160.000000,
+					"y" : 240.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice131",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 176.000000,
+					"y" : 240.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			},
+			{
+				"name" : "Slice132",
+				"isNineSliced" : false,
+				"pos" :
+				{
+					"x" : 192.000000,
+					"y" : 240.000000
+				},
+				"size" :
+				{
+					"x" : 16.000000,
+					"y" : 16.000000
+				},
+				"upLeftOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"downRightOffset" :
+				{
+					"x" : 10.000000,
+					"y" : 10.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000
+				},
+				"hasCollision" : false,
+				"physGroup" : 1
+			}
+		],
+		"anim_count" : 0,
+		"Animations" : [
+		]
+	}
+}

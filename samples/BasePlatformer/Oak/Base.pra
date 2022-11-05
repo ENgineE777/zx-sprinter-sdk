@@ -1,0 +1,20 @@
+﻿{
+
+	"export_dir" : "",
+	"iconPath" : "",
+	"iconSmallPath" : "",
+	"projectName" : "MeatGirl",
+	"start_scene" : "Test",
+	"alignRect" :
+	{
+		"x" : 8.000000,
+		"y" : 8.000000
+	},
+	"useAlignRect" : false,
+	"pixelsPerUnit" : 50.000000,
+	"pixelsHeight" : 192.000000,
+	"hideCursor" : false,
+	"edited_asset" : "Test.scn",
+	"layers" : [
+	]
+}

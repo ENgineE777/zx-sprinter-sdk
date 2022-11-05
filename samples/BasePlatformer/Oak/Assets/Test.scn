@@ -1,0 +1,4614 @@
+﻿{
+
+	"uid" : 0,
+	"entities" : [
+		{
+			"prefabInstance" : false,
+			"uid" : 662005,
+			"type" : "Node2D",
+			"name" : "Screens",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000,
+					"z" : 0.500000
+				}
+			},
+			"childs" : [
+				{
+					"prefabInstance" : false,
+					"uid" : 373011,
+					"type" : "Node2D",
+					"name" : "Screen1",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"childs" : [
+						{
+							"prefabInstance" : false,
+							"uid" : 393636,
+							"type" : "TileMap",
+							"name" : "TileSet_copy",
+							"layerName" : "",
+							"visible" : false,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 0.000000,
+									"y" : 0.000000,
+									"z" : 0.001000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 16.000000,
+									"y" : 16.000000,
+									"z" : 0.000000
+								},
+								"offset" :
+								{
+									"x" : 0.000000,
+									"y" : 0.000000,
+									"z" : 0.500000
+								}
+							},
+							"drawLevel" : 0,
+							"tileSet" :
+							{
+								"Path" : "TileSet.tls"
+							},
+							"count" : 12,
+							"Tile" : [
+								{
+									"x" : 4,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 112,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 9,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 117,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 10,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 117,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 12,
+									"y" : 3,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 115,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 12,
+									"y" : 4,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 105,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 4,
+									"y" : 5,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 98,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 13,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 117,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 14,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 117,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 1,
+									"y" : 7,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 117,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 3,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 112,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 10,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 117,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 11,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 117,
+										"animIndex" : -1
+									}
+								}
+							]
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 496155,
+							"type" : "TileMap",
+							"name" : "TileSet",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 0.000000,
+									"y" : 0.000000,
+									"z" : 0.002000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 16.000000,
+									"y" : 16.000000,
+									"z" : 0.000000
+								},
+								"offset" :
+								{
+									"x" : 0.000000,
+									"y" : 0.000000,
+									"z" : 0.500000
+								}
+							},
+							"drawLevel" : 0,
+							"tileSet" :
+							{
+								"Path" : "TileSet.tls"
+							},
+							"count" : 192,
+							"Tile" : [
+								{
+									"x" : 0,
+									"y" : 1,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 1,
+									"y" : 1,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 2,
+									"y" : 1,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 3,
+									"y" : 1,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 4,
+									"y" : 1,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 5,
+									"y" : 1,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 16,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 6,
+									"y" : 1,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 17,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 7,
+									"y" : 1,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 16,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 8,
+									"y" : 1,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 17,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 9,
+									"y" : 1,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 10,
+									"y" : 1,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 11,
+									"y" : 1,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 12,
+									"y" : 1,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 13,
+									"y" : 1,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 14,
+									"y" : 1,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 15,
+									"y" : 1,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 0,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 1,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 35,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 2,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 36,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 3,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 4,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 5,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 11,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 6,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 16,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 7,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 17,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 8,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 13,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 9,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 10,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 11,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 12,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 13,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 14,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 15,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 0,
+									"y" : 3,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 1,
+									"y" : 3,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 29,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 2,
+									"y" : 3,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 30,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 3,
+									"y" : 3,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 4,
+									"y" : 3,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 5,
+									"y" : 3,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 0,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 6,
+									"y" : 3,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 7,
+									"y" : 3,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 8,
+									"y" : 3,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 13,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 9,
+									"y" : 3,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 21,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 10,
+									"y" : 3,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 11,
+									"y" : 3,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 12,
+									"y" : 3,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 13,
+									"y" : 3,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 14,
+									"y" : 3,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 9,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 15,
+									"y" : 3,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 0,
+									"y" : 4,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 23,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 1,
+									"y" : 4,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 24,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 2,
+									"y" : 4,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 3,
+									"y" : 4,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 47,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 4,
+									"y" : 4,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 5,
+									"y" : 4,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 6,
+									"y" : 4,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 7,
+									"y" : 4,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 8,
+									"y" : 4,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 11,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 9,
+									"y" : 4,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 10,
+									"y" : 4,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 20,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 11,
+									"y" : 4,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 12,
+									"y" : 4,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 13,
+									"y" : 4,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 14,
+									"y" : 4,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 15,
+									"y" : 4,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 0,
+									"y" : 5,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 17,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 1,
+									"y" : 5,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 13,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 2,
+									"y" : 5,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 3,
+									"y" : 5,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 4,
+									"y" : 5,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 5,
+									"y" : 5,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 6,
+									"y" : 5,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 52,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 7,
+									"y" : 5,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 8,
+									"y" : 5,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 11,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 9,
+									"y" : 5,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 10,
+									"y" : 5,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 11,
+									"y" : 5,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 12,
+									"y" : 5,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 13,
+									"y" : 5,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 14,
+									"y" : 5,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 15,
+									"y" : 5,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 17,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 0,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 17,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 1,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 2,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 3,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 4,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 5,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 2,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 6,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 7,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 8,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 11,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 9,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 10,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 11,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 12,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 13,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 14,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 15,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 11,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 0,
+									"y" : 7,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 13,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 1,
+									"y" : 7,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 2,
+									"y" : 7,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 3,
+									"y" : 7,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 4,
+									"y" : 7,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 5,
+									"y" : 7,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 6,
+									"y" : 7,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 7,
+									"y" : 7,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 8,
+									"y" : 7,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 11,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 9,
+									"y" : 7,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 10,
+									"y" : 7,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 37,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 11,
+									"y" : 7,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 18,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 12,
+									"y" : 7,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 19,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 13,
+									"y" : 7,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 9,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 14,
+									"y" : 7,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 15,
+									"y" : 7,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 11,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 0,
+									"y" : 8,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 13,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 1,
+									"y" : 8,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 2,
+									"y" : 8,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 31,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 3,
+									"y" : 8,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 4,
+									"y" : 8,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 5,
+									"y" : 8,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 6,
+									"y" : 8,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 62,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 7,
+									"y" : 8,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 8,
+									"y" : 8,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 11,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 9,
+									"y" : 8,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 10,
+									"y" : 8,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 11,
+									"y" : 8,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 7,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 12,
+									"y" : 8,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 8,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 13,
+									"y" : 8,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 14,
+									"y" : 8,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 15,
+									"y" : 8,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 11,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 0,
+									"y" : 9,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 13,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 1,
+									"y" : 9,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 2,
+									"y" : 9,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 3,
+									"y" : 9,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 4,
+									"y" : 9,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 5,
+									"y" : 9,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 6,
+									"y" : 9,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 7,
+									"y" : 9,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 8,
+									"y" : 9,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 0,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 9,
+									"y" : 9,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 10,
+									"y" : 9,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 11,
+									"y" : 9,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 12,
+									"y" : 9,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 13,
+									"y" : 9,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 10,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 14,
+									"y" : 9,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 15,
+									"y" : 9,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 11,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 0,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 13,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 1,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 2,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 32,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 3,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 4,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 5,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 6,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 7,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 52,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 8,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 9,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 10,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 11,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 12,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 13,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 14,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 15,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 11,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 0,
+									"y" : 11,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 13,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 1,
+									"y" : 11,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 2,
+									"y" : 11,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 20,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 3,
+									"y" : 11,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 4,
+									"y" : 11,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 18,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 5,
+									"y" : 11,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 19,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 6,
+									"y" : 11,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 7,
+									"y" : 11,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 8,
+									"y" : 11,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 9,
+									"y" : 11,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 10,
+									"y" : 11,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 11,
+									"y" : 11,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 12,
+									"y" : 11,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 13,
+									"y" : 11,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 21,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 14,
+									"y" : 11,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 15,
+									"y" : 11,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 11,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 0,
+									"y" : 12,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 13,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 1,
+									"y" : 12,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 2,
+									"y" : 12,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 3,
+									"y" : 12,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 4,
+									"y" : 12,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 7,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 5,
+									"y" : 12,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 8,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 6,
+									"y" : 12,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 7,
+									"y" : 12,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 8,
+									"y" : 12,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 9,
+									"y" : 12,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 10,
+									"y" : 12,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 52,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 11,
+									"y" : 12,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 12,
+									"y" : 12,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 13,
+									"y" : 12,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 14,
+									"y" : 12,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 15,
+									"y" : 12,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 11,
+										"animIndex" : -1
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 161319,
+					"type" : "Node2D",
+					"name" : "Screen2",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 272.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"childs" : [
+						{
+							"prefabInstance" : false,
+							"uid" : 959521,
+							"type" : "TileMap",
+							"name" : "TileSet_copy",
+							"layerName" : "",
+							"visible" : false,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 0.000000,
+									"y" : 0.000000,
+									"z" : 0.001000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 16.000000,
+									"y" : 16.000000,
+									"z" : 0.000000
+								},
+								"offset" :
+								{
+									"x" : 0.000000,
+									"y" : 0.000000,
+									"z" : 0.500000
+								}
+							},
+							"drawLevel" : 0,
+							"tileSet" :
+							{
+								"Path" : "TileSet.tls"
+							},
+							"count" : 12,
+							"Tile" : [
+								{
+									"x" : 4,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 112,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 9,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 117,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 10,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 117,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 12,
+									"y" : 3,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 115,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 12,
+									"y" : 4,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 105,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 4,
+									"y" : 5,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 98,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 13,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 117,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 14,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 117,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 1,
+									"y" : 7,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 117,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 3,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 112,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 10,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 117,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 11,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 117,
+										"animIndex" : -1
+									}
+								}
+							]
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 747955,
+							"type" : "TileMap",
+							"name" : "TileSet",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 0.000000,
+									"y" : 0.000000,
+									"z" : 0.002000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 16.000000,
+									"y" : 16.000000,
+									"z" : 0.000000
+								},
+								"offset" :
+								{
+									"x" : 0.000000,
+									"y" : 0.000000,
+									"z" : 0.500000
+								}
+							},
+							"drawLevel" : 0,
+							"tileSet" :
+							{
+								"Path" : "TileSet.tls"
+							},
+							"count" : 192,
+							"Tile" : [
+								{
+									"x" : 0,
+									"y" : 1,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 1,
+									"y" : 1,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 2,
+									"y" : 1,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 5,
+									"y" : 1,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 16,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 6,
+									"y" : 1,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 17,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 7,
+									"y" : 1,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 16,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 8,
+									"y" : 1,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 17,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 13,
+									"y" : 1,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 14,
+									"y" : 1,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 15,
+									"y" : 1,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 0,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 13,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 14,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 15,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 0,
+									"y" : 3,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 13,
+									"y" : 3,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 14,
+									"y" : 3,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 9,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 15,
+									"y" : 3,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 2,
+									"y" : 4,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 2,
+									"y" : 5,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 3,
+									"y" : 5,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 2,
+									"y" : 7,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 0,
+									"y" : 8,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 13,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 1,
+									"y" : 8,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 2,
+									"y" : 8,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 31,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 10,
+									"y" : 8,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 0,
+									"y" : 9,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 13,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 1,
+									"y" : 9,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 2,
+									"y" : 9,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 4,
+									"y" : 9,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 5,
+									"y" : 9,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 0,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 13,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 1,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 2,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 32,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 3,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 4,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 5,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 6,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 7,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 52,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 8,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 9,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 10,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 13,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 14,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 0,
+									"y" : 11,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 13,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 1,
+									"y" : 11,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 2,
+									"y" : 11,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 20,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 3,
+									"y" : 11,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 4,
+									"y" : 11,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 18,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 5,
+									"y" : 11,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 19,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 6,
+									"y" : 11,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 7,
+									"y" : 11,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 8,
+									"y" : 11,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 9,
+									"y" : 11,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 10,
+									"y" : 11,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 13,
+									"y" : 11,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 21,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 14,
+									"y" : 11,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 0,
+									"y" : 12,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 13,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 1,
+									"y" : 12,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 2,
+									"y" : 12,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 3,
+									"y" : 12,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 4,
+									"y" : 12,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 7,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 5,
+									"y" : 12,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 8,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 6,
+									"y" : 12,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 7,
+									"y" : 12,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 8,
+									"y" : 12,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 9,
+									"y" : 12,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 10,
+									"y" : 12,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 52,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 13,
+									"y" : 12,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 14,
+									"y" : 12,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 1,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 2,
+									"y" : 3,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 0,
+									"y" : 4,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 1,
+									"y" : 4,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 1,
+									"y" : 7,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 2,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 3,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 8,
+									"y" : 8,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 9,
+									"y" : 9,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 10,
+									"y" : 9,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 3,
+									"y" : 4,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 0,
+									"y" : 7,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 13,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 2,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 3,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 11,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 4,
+									"y" : 4,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 11,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 4,
+									"y" : 5,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 11,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 4,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 11,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 15,
+									"y" : 12,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 11,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 15,
+									"y" : 11,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 11,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 15,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 11,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 10,
+									"y" : 7,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 9,
+									"y" : 7,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 8,
+									"y" : 7,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 10,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 10,
+									"y" : 5,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 14,
+									"y" : 9,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 13,
+									"y" : 9,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 12,
+									"y" : 9,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 11,
+									"y" : 9,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 0,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 11,
+									"y" : 8,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 11,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 7,
+									"y" : 9,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 2,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 7,
+									"y" : 8,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 13,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 8,
+									"y" : 9,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 6,
+									"y" : 9,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 6,
+									"y" : 8,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 17,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 4,
+									"y" : 7,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 17,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 4,
+									"y" : 8,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 16,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 11,
+									"y" : 4,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 10,
+									"y" : 4,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 9,
+									"y" : 4,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 15,
+									"y" : 9,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 17,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 15,
+									"y" : 8,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 17,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 14,
+									"y" : 8,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 17,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 13,
+									"y" : 8,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 17,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 12,
+									"y" : 8,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 17,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 15,
+									"y" : 7,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 17,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 7,
+									"y" : 7,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 13,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 7,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 13,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 7,
+									"y" : 5,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 13,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 8,
+									"y" : 4,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 1,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 11,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 11,
+									"y" : 5,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 12,
+									"y" : 5,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 13,
+									"y" : 5,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 13,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 14,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 14,
+									"y" : 5,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 14,
+									"y" : 4,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 13,
+									"y" : 4,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 12,
+									"y" : 3,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 13,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 12,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 13,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 3,
+									"y" : 1,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 17,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 5,
+									"y" : 5,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 17,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 5,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 17,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 6,
+									"y" : 7,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 17,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 7,
+									"y" : 4,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 17,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 8,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 17,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 11,
+									"y" : 3,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 17,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 9,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 17,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 10,
+									"y" : 1,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 17,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 11,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 17,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 11,
+									"y" : 1,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 17,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 12,
+									"y" : 1,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 17,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 4,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 28,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 5,
+									"y" : 4,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 28,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 6,
+									"y" : 4,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 28,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 7,
+									"y" : 3,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 28,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 9,
+									"y" : 1,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 28,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 6,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 6,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 6,
+									"y" : 5,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 6,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 4,
+									"y" : 1,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 6,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 7,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 34,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 10,
+									"y" : 3,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 34,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 5,
+									"y" : 3,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 34,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 5,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 44,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 6,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 44,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 5,
+									"y" : 7,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 44,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 5,
+									"y" : 8,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 44,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 10,
+									"y" : 2,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 44,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 9,
+									"y" : 3,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 6,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 6,
+									"y" : 3,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 6,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 8,
+									"y" : 3,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 5,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 11,
+									"y" : 11,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 18,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 11,
+									"y" : 12,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 7,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 12,
+									"y" : 12,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 8,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 12,
+									"y" : 11,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 19,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 12,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 11,
+									"y" : 10,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 12,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 9,
+									"y" : 8,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 46,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 12,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 20,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 8,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 29,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 9,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 30,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 9,
+									"y" : 5,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 36,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 8,
+									"y" : 5,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 35,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 0,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 17,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 3,
+									"y" : 9,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 0,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 1,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 2,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 1,
+									"y" : 5,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 24,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 0,
+									"y" : 5,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 23,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 12,
+									"y" : 7,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 23,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 13,
+									"y" : 7,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 23,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 14,
+									"y" : 7,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 23,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 15,
+									"y" : 6,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 11,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 15,
+									"y" : 5,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 11,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 15,
+									"y" : 4,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 22,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 12,
+									"y" : 4,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 2,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 11,
+									"y" : 7,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 22,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 3,
+									"y" : 3,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 0,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 4,
+									"y" : 3,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 27,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 3,
+									"y" : 8,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 11,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 3,
+									"y" : 7,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 22,
+										"animIndex" : -1
+									}
+								},
+								{
+									"x" : 1,
+									"y" : 3,
+									"Texture" :
+									{
+										"Path" : "Dungeon Tile Set.png",
+										"sliceIndex" : 20,
+										"animIndex" : -1
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"prefabInstance" : false,
+			"uid" : 335944,
+			"type" : "Camera2D",
+			"name" : "camera",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 1920.000000,
+					"y" : 1080.000000,
+					"z" : 1.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000,
+					"z" : 0.500000
+				}
+			},
+			"zoom" : 1.000000,
+			"Target" :
+			{
+				"uid" : 0
+			},
+			"border.x" : 100.000000,
+			"border.y" : 100.000000,
+			"useLimits" : false,
+			"leftup.x" : -1000.000000,
+			"rightdown.x" : 1000.000000,
+			"leftup.y" : 1000.000000,
+			"rightdown.y" : -1000.000000
+		},
+		{
+			"prefabInstance" : false,
+			"uid" : 277335,
+			"type" : "Character",
+			"name" : "Character",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 48.699253,
+					"y" : 26.606720,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : -0.000000,
+					"y" : 0.000000,
+					"z" : -0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 100.000000,
+					"y" : 100.000000,
+					"z" : 100.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000,
+					"z" : 0.500000
+				}
+			},
+			"camera" :
+			{
+				"uid" : 335944
+			},
+			"screens root" :
+			{
+				"uid" : 662005
+			},
+			"childs" : [
+				{
+					"prefabInstance" : false,
+					"uid" : 990251,
+					"type" : "AnimGraph2D",
+					"name" : "anim",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 16.000000,
+							"y" : 16.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 1.000000,
+							"z" : 0.500000
+						}
+					},
+					"anim" :
+					{
+						"Path" : "Player.ang"
+					},
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					}
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 467294,
+					"type" : "KinematicCapsule2D",
+					"name" : "controller",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 8.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 8.000000,
+							"y" : 16.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"physGroup" : 1,
+					"affectOnParent" : true,
+					"height" : 8.000000,
+					"radius" : 4.000000,
+					"slopeLimit" : 0.000000,
+					"stepOffset" : 0.000000
+				}
+			]
+		}
+	]
+}

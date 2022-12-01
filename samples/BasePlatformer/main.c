@@ -1,34 +1,133 @@
 // Jias jias - Este es como el subaquatic, que lleva en desarrollo tanto
 // tiempo que el cуdigo de aquн abajo da miedo miedor.
 #include "sprinter.h"
-#include "resources.h"
 #include "splib.h"
-
-/* Extern pointers for the graphic definitions: */
-
-#include "fases.h"
-#include "sprites.h"
 
 /* Game constants */
 
-#define NULL 0
+#define uwol_r_1a       0
+#define uwol_r_2a       1
+#define uwol_r_3a       2
+#define uwol_l_1a       3
+#define uwol_l_2a       4
+#define uwol_l_3a       5
+#define wolfi_1a        6
+#define franki_1a       7
+#define vampi_1a        8
+#define fanti_r_1a      9
+#define fanti_l_1a      10
+#define uwolpelot_r_1a  11
+#define uwolpelot_r_2a  12
+#define uwolpelot_r_3a  13
+#define uwolpelot_l_1a  14
+#define uwolpelot_l_2a  15
+#define uwolpelot_l_3a  16
+#define uwolmuete_1a    17
+#define arrow_1a        18
+#define coin_1a			19
+
+#define PAL_TILES	0
+
+#define EST_NORMAL       0
+#define EST_NUDE         1
+#define EST_PARP         2
+#define EST_MUR          4
+#define EST_EXIT         8
+#define EST_EXIT_LEFT   16
+#define EST_EXIT_RIGHT  32
+
 #define CANAL_FX        1       // Canal por el que suenan los efectos de sonido
 
+#define HEX__(n) 0x##n##LU
+
+#define B8__(x) ((x&0x0000000FLU)?1:0) \
++((x&0x000000F0LU)?2:0) \
++((x&0x00000F00LU)?4:0) \
++((x&0x0000F000LU)?8:0) \
++((x&0x000F0000LU)?16:0) \
++((x&0x00F00000LU)?32:0) \
++((x&0x0F000000LU)?64:0) \
++((x&0xF0000000LU)?128:0)
+
+#define B8(d) ((u8)B8__(HEX__(d)))
+
+typedef struct
+{
+    u8 descriptor;
+    u16 obj[10];
+    u16 movil[3];
+    u8 coin[10];
+} FASE;
+
+FASE fases[1];
+
+const u8 fases_data[]={
+
+    B8(00001101),
+
+    B8(11000010), B8(00000000),
+    B8(00110000), B8(00010011),
+    B8(00110000), B8(10000011),
+    B8(00100000), B8(01010101),
+    B8(00110000), B8(00010111),
+    B8(00110000), B8(10000111),
+    B8(11001100), B8(00001001),
+    B8(00000000), B8(00000000),
+    B8(00000000), B8(00000000),
+    B8(00000000), B8(00000000),
+
+    B8(00010101), B8(00011010),
+    B8(01100011), B8(00011010),
+    B8(00000000), B8(00000000),
+
+    B8(00010010),
+    B8(00110010),
+    B8(10000010),
+    B8(10100010),
+    B8(01010100),
+    B8(01100100),
+    B8(00010110),
+    B8(00110110),
+    B8(10000110),
+    B8(10100110),
+};
+
+void fases_init(void)
+{
+    u16 i,j,tmp;
+    const u8 *ptr;
+
+    ptr=fases_data;
+ 
+    for (i=0;i<1;i++)
+    {
+        fases[i].descriptor=*ptr++;
+
+        for (j=0;j<10;j++)
+        {
+            tmp=*ptr++;
+            tmp=(*ptr++<<8)|tmp;
+            fases[i].obj[j]=tmp;
+        }
+
+        for (j=0;j<3;j++)
+        {
+            tmp=*ptr++;
+            tmp=(*ptr++<<8)|tmp;
+            fases[i].movil[j]=tmp;
+        }
+
+        for (j=0;j<10;j++)
+        {
+            fases[i].coin[j]=*ptr++;
+        }
+    }
+}
+
 i8 play;
+u8 slowpoke;
 
 /* Manage keys and joystick at the same time: */
-
-u8 warp_palette[30 * 3];
-u16 sprites_pal[16];
-u16 tilesa_pal[16];
-u16 tilesb_pal[16];
-u16 tilesc_pal[16];
-u16 needed_pal[64];
-const u16 white_pal[16] = {0x6318,0x6318,0x6318,0x6318,
-                           0x6318,0x6318,0x6318,0x6318,
-                           0x6318,0x6318,0x6318,0x6318,
-                           0x6318,0x6318,0x6318,0x6318};
-
 
 /* fade out screen */
 void fade_screen(u16 out)
@@ -45,14 +144,7 @@ void fade_screen(u16 out)
     }
 }
 
-#define NULL 0
-#define CANAL_FX        1       // Canal por el que suenan los efectos de sonido
-
-i8 play;
-
 /* Manage keys and joystick at the same time: */
-
-u8 slowpoke;
 
 u16 joyfunc(void)
 {
@@ -75,7 +167,8 @@ u16 joyfunc(void)
 
 /* Data types */
 
-typedef struct {
+typedef struct
+{
     i16 x, y;
     i16 vx, vy;
     i8 g, ax, rx;
@@ -87,18 +180,9 @@ typedef struct {
     u16 ground,nojump;
 } INERCIA;
 
-#define EST_NORMAL       0
-#define EST_NUDE         1
-#define EST_PARP         2
-#define EST_MUR          4
-#define EST_EXIT         8
-#define EST_EXIT_LEFT   16
-#define EST_EXIT_RIGHT  32
-
 INERCIA player;
 
 i8 pantalla;
-i8 visitados [55];
 i8 lives;
 
 
@@ -158,7 +242,6 @@ u8 *tile_buffer [] = {tile_buffer01, tile_buffer02, tile_buffer03, tile_buffer04
                       tile_buffer07, tile_buffer08, tile_buffer09, tile_buffer10, tile_buffer11, tile_buffer12};
 u8 j, x, y, xx, yy, xt, yt;
 i8 i;
-i8 fantact;
 //struct sp_SS *sp_prueba;
 u8 sp_prueba;
 u8 *wyz_music_flag;
@@ -173,6 +256,8 @@ i8 bonus1, bonus2;
 
 u8 cheat;
 u8 monedas_frame;
+
+#define coin_1a			19
 
 const u16 monedas_anim[]={
     coin_1a,coin_1a+1,coin_1a+2,coin_1a+2,coin_1a+1,coin_1a,coin_1a+3,coin_1a+4,coin_1a+4,coin_1a+3
@@ -191,24 +276,7 @@ const u16 player_anim[]={
 
 #define SPTW 4/7//2/3
 
-#define mojon_data IMG_MOJON
-#define credits_data IMG_CREDITS
-#define title_data IMG_TITLE
-#define gover_data IMG_GOVER
-#define finbad_data IMG_FINBAD
-#define fingoo_data IMG_FINGOO
-#define finend_data IMG_FINEND
-
-#define menu_data 5
-#define piramide_data 6
-#define zona1_data 1
-#define zona2_data 2
-#define zona3_data 3
-#define zona4_data 4
-#define fantasma_data 0
-#define gameover_data 7
-#define endingko_data 8
-#define endingok_data 9
+#define zona1_data 0
 
 // Pelotingui o vestido:
 u8 rand ()
@@ -443,7 +511,7 @@ void move (u16 i)
     }
 }
 
-void death_sequence ()
+void death_sequence()
 {
     if (player.vy < 1024*SPTW/*256*/)
         player.vy += player.g;
@@ -548,7 +616,7 @@ void draw_screen (u16 r_pant)
     // Monedas:
     // Act 20091201 :: Sуlo pintamos monedas si la habitaciуn NO ha sido visitada :-)
  
-    if (!visitados [r_pant]) {
+    {
         num_monedas = 0;
  
         rectangulo.width = rectangulo.height = 2;
@@ -661,7 +729,6 @@ void game()
     u8 salida;
     u8 aux;
     u8 fade;
-    u8 bright;
     static u8 sprnr;
     u16 i,j,idx;
     u16 type;
@@ -671,7 +738,6 @@ void game()
     salida=0;
     flag1 = 0;
     idx=0;
-    bright = 0;
     player.x = 32 << 6;
     player.y = 144 << 6;
     player.vy = 0;
@@ -695,24 +761,15 @@ void game()
     draw_screen(0);
     sp_UpdateNow();
     sprites_start();
- 
-    sp_PrintAtInv(0,5,71,110);
-    sp_PrintAtInv(0,23,71,111);
 
     maincounter = 0;
     playing = 1;
-    fantact = 0;
  
     player.frame = uwol_r_2a;
 
-    wyz_play_music (zona1_data);
+    wyz_play_music(zona1_data);
 
-    // Si la habitaciуn ya fue visitada, mostramos las salidas y al fantasmilla.
-    if (visitados[0])
-    {
-        num_monedas = 0;
-    }
- 
+    // Si la habitaciуn ya fue visitada, mostramos las salidas y al fantasmilla. 
     monedas_frame=0;
  
     fade=0;
@@ -725,18 +782,7 @@ void game()
         maincounter ++;     // Como es un u8, irб siempre de 0 a 255, con ciclos potencias de 2.
 
         if(pause_cnt) pause_cnt--;
-    
-        if (bright < 15)
-        {
-            bright++;
-            pal_bright(bright);
-        }
-        else if (bright > 15)
-        {
-            bright--;
-            pal_bright(bright);
-        }
- 
+     
     	j = joyfunc(); // Leemos del teclado
     	
         if ((j^0xffff)&sp_ESC)
@@ -810,7 +856,7 @@ void game()
  
         if ( !( player.estado & EST_PARP ) && !( player.estado & EST_MUR ) &&!cheat)        // Colisiуn con enemigos:
             for ( i = 0; i < 3; i ++ )
-                if ( moviles [i].tipo > -1 && ( !( player.estado & EST_EXIT ) || (fantact && i == idx) )  ) {
+                if ( moviles [i].tipo > -1 && ( !( player.estado & EST_EXIT ) )  ) {
                     if (y >= moviles [i].y - 14 && y <= moviles [i].y + 14 && x >= moviles [i].x - 14 && x <= moviles [i].x + 14)
                     {
                         if ( !(player.estado & EST_NUDE) )
@@ -941,7 +987,6 @@ void game()
  
                 if(salida!=2)
                 {
-                    bright = 30; //7;
                     wyz_play_sound (9, 0 /* CANAL_FX*/ );
                 }
             }
@@ -984,12 +1029,6 @@ void game()
                     moviles [i].current_frame = moviles [i].next_frame;
                 }
  
-        if ( (player.estado & EST_EXIT) && fantact)
-        {
-            add_sprite((moviles [idx].x), moviles [idx].y, moviles [idx].current_frame);
-            moviles [idx].current_frame = moviles [idx].next_frame;
-        }
-
         if ( !(player.estado & EST_PARP) || !(maincounter & 1) )
             add_sprite ((x), y,player.frame);
 
@@ -1015,6 +1054,7 @@ int main ()
     sp_Init();
     fases_init();
     uwol_preinit_variables();
+    fade_screen(0);
     game();
 
     return 0;
